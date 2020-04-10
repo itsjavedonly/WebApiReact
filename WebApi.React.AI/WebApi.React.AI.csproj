@@ -218,32 +218,23 @@
     <Compile Include="Controllers\PdfEngineController.cs" />
     <Compile Include="Controllers\SmartInvoiceDemoesController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
-    <Compile Include="DB\REeactEDM.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>REeactEDM.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DB\REeactEDM.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>REeactEDM.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DB\REeactEDM.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>REeactEDM.edmx</DependentUpon>
-    </Compile>
     <Compile Include="DB\SmartInvoiceDemo.cs">
-      <DependentUpon>REeactEDM.tt</DependentUpon>
+      <DependentUpon>webApiReatDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DB\studentmaster.cs">
-      <DependentUpon>REeactEDM.tt</DependentUpon>
+    <Compile Include="DB\webApiReatDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>webApiReatDataModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="DB\tblCity.cs">
-      <DependentUpon>REeactEDM.tt</DependentUpon>
+    <Compile Include="DB\webApiReatDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>webApiReatDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DB\tblEmployee.cs">
-      <DependentUpon>REeactEDM.tt</DependentUpon>
+    <Compile Include="DB\webApiReatDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>webApiReatDataModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -262,15 +253,15 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="DB\REeactEDM.Context.tt">
+    <Content Include="DB\webApiReatDataModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>REeactEDM.edmx</DependentUpon>
-      <LastGenOutput>REeactEDM.Context.cs</LastGenOutput>
+      <DependentUpon>webApiReatDataModel.edmx</DependentUpon>
+      <LastGenOutput>webApiReatDataModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="DB\REeactEDM.tt">
+    <Content Include="DB\webApiReatDataModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>REeactEDM.edmx</DependentUpon>
-      <LastGenOutput>REeactEDM.cs</LastGenOutput>
+      <DependentUpon>webApiReatDataModel.edmx</DependentUpon>
+      <LastGenOutput>webApiReatDataModel.cs</LastGenOutput>
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -296,13 +287,14 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <EntityDeploy Include="DB\REeactEDM.edmx">
+    <EntityDeploy Include="DB\webApiReatDataModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>REeactEDM.Designer.cs</LastGenOutput>
+      <LastGenOutput>webApiReatDataModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="DB\REeactEDM.edmx.diagram">
-      <DependentUpon>REeactEDM.edmx</DependentUpon>
+    <Content Include="DB\webApiReatDataModel.edmx.diagram">
+      <DependentUpon>webApiReatDataModel.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\WebApiReactAI20200409083751 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

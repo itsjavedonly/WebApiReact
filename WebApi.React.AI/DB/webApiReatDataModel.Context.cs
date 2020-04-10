@@ -13,10 +13,10 @@ namespace WebApi.React.AI.DB
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CrudDemoEntities : DbContext
+    public partial class WebApiReactAI20200409083751_dbEntitiesMain : DbContext
     {
-        public CrudDemoEntities()
-            : base("name=CrudDemoEntities")
+        public WebApiReactAI20200409083751_dbEntitiesMain()
+            : base("name=WebApiReactAI20200409083751_dbEntitiesMain")
         {
         }
     
@@ -25,9 +25,6 @@ namespace WebApi.React.AI.DB
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<studentmaster> studentmasters { get; set; }
-        public virtual DbSet<tblCity> tblCities { get; set; }
-        public virtual DbSet<tblEmployee> tblEmployees { get; set; }
         public virtual DbSet<SmartInvoiceDemo> SmartInvoiceDemoes { get; set; }
     }
 }

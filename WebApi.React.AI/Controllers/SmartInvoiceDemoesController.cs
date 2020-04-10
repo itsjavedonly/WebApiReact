@@ -14,7 +14,9 @@ namespace WebApi.React.AI.Controllers
 {
     public class SmartInvoiceDemoesController : ApiController
     {
-        private CrudDemoEntities db = new CrudDemoEntities();
+        //private CrudDemoEntities db = new CrudDemoEntities();
+        private WebApiReactAI20200409083751_dbEntitiesMain db = new WebApiReactAI20200409083751_dbEntitiesMain();
+      //  private Model1
 
         // GET: api/SmartInvoiceDemoes
         public IQueryable<SmartInvoiceDemo> GetSmartInvoiceDemoes()
