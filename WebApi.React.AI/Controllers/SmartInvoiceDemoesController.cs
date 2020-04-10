@@ -15,7 +15,8 @@ namespace WebApi.React.AI.Controllers
     public class SmartInvoiceDemoesController : ApiController
     {
         //private CrudDemoEntities db = new CrudDemoEntities();
-        private WebApiReactAI20200409083751_dbEntitiesMain db = new WebApiReactAI20200409083751_dbEntitiesMain();
+        // private WebApiReactAI20200409083751_dbEntitiesMainUpdated db = new WebApiReactAI20200409083751_dbEntitiesMain();
+        private WebApiReactAI20200409083751_dbEntitiesUpdated db = new WebApiReactAI20200409083751_dbEntitiesUpdated();
       //  private Model1
 
         // GET: api/SmartInvoiceDemoes
@@ -46,7 +47,7 @@ namespace WebApi.React.AI.Controllers
                 return BadRequest(ModelState);
             }
 
-            if (id != smartInvoiceDemo.ID)
+            if (id != smartInvoiceDemo.id)
             {
                 return BadRequest();
             }
@@ -89,7 +90,7 @@ namespace WebApi.React.AI.Controllers
             }
             catch (DbUpdateException)
             {
-                if (SmartInvoiceDemoExists(smartInvoiceDemo.ID))
+                if (SmartInvoiceDemoExists(smartInvoiceDemo.id))
                 {
                     return Conflict();
                 }
@@ -99,7 +100,7 @@ namespace WebApi.React.AI.Controllers
                 }
             }
 
-            return CreatedAtRoute("DefaultApi", new { id = smartInvoiceDemo.ID }, smartInvoiceDemo);
+            return CreatedAtRoute("DefaultApi", new { id = smartInvoiceDemo.id }, smartInvoiceDemo);
         }
 
         // DELETE: api/SmartInvoiceDemoes/5
@@ -129,7 +130,7 @@ namespace WebApi.React.AI.Controllers
 
         private bool SmartInvoiceDemoExists(int id)
         {
-            return db.SmartInvoiceDemoes.Count(e => e.ID == id) > 0;
+            return db.SmartInvoiceDemoes.Count(e => e.id == id) > 0;
         }
     }
 }

@@ -13,10 +13,10 @@ namespace WebApi.React.AI.DB
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class WebApiReactAI20200409083751_dbEntitiesMain : DbContext
+    public partial class WebApiReactAI20200409083751_dbEntitiesUpdated : DbContext
     {
-        public WebApiReactAI20200409083751_dbEntitiesMain()
-            : base("name=WebApiReactAI20200409083751_dbEntitiesMain")
+        public WebApiReactAI20200409083751_dbEntitiesUpdated()
+            : base("name=WebApiReactAI20200409083751_dbEntitiesUpdated")
         {
         }
     

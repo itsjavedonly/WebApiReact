@@ -14,14 +14,15 @@ namespace WebApi.React.AI.DB
     
     public partial class SmartInvoiceDemo
     {
-        public int ID { get; set; }
-        public Nullable<bool> isProcessed { get; set; }
-        public string clientName { get; set; }
-        public string invoiceNumber { get; set; }
-        public string invoiceAmount { get; set; }
-        public Nullable<System.DateTime> invoiceDate { get; set; }
-        public Nullable<System.DateTime> invoiceDueDate { get; set; }
-        public string Description { get; set; }
-        public string invoiceUrl { get; set; }
+        public bool isProcessed { get; set; }
+        public string client_name { get; set; }
+        public string invoice_number { get; set; }
+        public string invoice_amount { get; set; }
+        public System.DateTime invoice_date { get; set; }
+        public System.DateTime due_date { get; set; }
+        public string description { get; set; }
+        public string invoice_url { get; set; }
+        public int id { get; set; }
+        public Nullable<System.DateTime> last_updated { get; set; }
     }
 }

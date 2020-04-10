@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="0b16a2f6e99244fd852c7c7b4f33634e" Name="Diagram1">
+      <Diagram DiagramId="a7815b80c6f4439db21b55f66b55b521" Name="Diagram1">
         <EntityTypeShape EntityType="WebApiReactAI20200409083751_dbModel.SmartInvoiceDemo" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>

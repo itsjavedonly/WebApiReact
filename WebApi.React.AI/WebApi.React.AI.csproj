@@ -219,22 +219,22 @@
     <Compile Include="Controllers\SmartInvoiceDemoesController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DB\SmartInvoiceDemo.cs">
-      <DependentUpon>webApiReatDataModel.tt</DependentUpon>
+      <DependentUpon>webAPiReactDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DB\webApiReatDataModel.Context.cs">
+    <Compile Include="DB\webAPiReactDataModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>webApiReatDataModel.Context.tt</DependentUpon>
+      <DependentUpon>webAPiReactDataModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="DB\webApiReatDataModel.cs">
+    <Compile Include="DB\webAPiReactDataModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>webApiReatDataModel.tt</DependentUpon>
+      <DependentUpon>webAPiReactDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DB\webApiReatDataModel.Designer.cs">
+    <Compile Include="DB\webAPiReactDataModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>webApiReatDataModel.edmx</DependentUpon>
+      <DependentUpon>webAPiReactDataModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -253,15 +253,15 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="DB\webApiReatDataModel.Context.tt">
+    <Content Include="DB\webAPiReactDataModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>webApiReatDataModel.edmx</DependentUpon>
-      <LastGenOutput>webApiReatDataModel.Context.cs</LastGenOutput>
+      <DependentUpon>webAPiReactDataModel.edmx</DependentUpon>
+      <LastGenOutput>webAPiReactDataModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="DB\webApiReatDataModel.tt">
+    <Content Include="DB\webAPiReactDataModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>webApiReatDataModel.edmx</DependentUpon>
-      <LastGenOutput>webApiReatDataModel.cs</LastGenOutput>
+      <DependentUpon>webAPiReactDataModel.edmx</DependentUpon>
+      <LastGenOutput>webAPiReactDataModel.cs</LastGenOutput>
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -287,12 +287,12 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <EntityDeploy Include="DB\webApiReatDataModel.edmx">
+    <EntityDeploy Include="DB\webAPiReactDataModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>webApiReatDataModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>webAPiReactDataModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="DB\webApiReatDataModel.edmx.diagram">
-      <DependentUpon>webApiReatDataModel.edmx</DependentUpon>
+    <Content Include="DB\webAPiReactDataModel.edmx.diagram">
+      <DependentUpon>webAPiReactDataModel.edmx</DependentUpon>
     </Content>
     <None Include="Properties\PublishProfiles\WebApiReactAI20200409083751 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
